@@ -1,0 +1,115 @@
+body {
+    background: url(./img/pixel-jeff-clipa-s.gif);
+}
+h1{
+    color: lightgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+ul li{
+     display: inline-block;
+}
+
+ul li a,
+ul li button{
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 10px;
+    transition: 200px;
+    color:rgb(24, 255, 120);
+    cursor: pointer;
+}
+
+ul li a:hover,
+ul li button:hover {
+     background: rgb(17, 0, 255);
+    color: white;
+}
+
+a {
+    color: rgb(0, 241, 169);
+    text-decoration: none;
+}
+
+.youtube_lil-peep{
+      color: crimson
+}
+
+.youtube_flo-rida{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: skyblue
+}
+
+h2 {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 280px;
+    height: 360px;
+}
+
+hr{
+    color: lightgreen;
+}
+
+.pp{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    color: white
+}
+
+.Lil-peep{
+    text-align: right
+}
+
+.box img{
+    width: 300px;
+    height: 360px;
+}
+
+.box{
+    margin: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 3px solid rgb(253, 0, 0);
+    border-radius: 20px;
+    background: url(./img/x.png);
+    box-shadow: 10px 10px 15px 15px;
+}
+
+.box .Lil-peep{
+    margin: 0;
+}
+
+.box2{
+    margin: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 3px solid skyblue;
+    border-radius: 20px;
+    background: url(./img/flo_rida.jpg);
+
+    box-shadow: 10px 10px 15px 15px black;
+}
+
+.box2 .Flo-rida2{
+    margin: 0;
+}
+
+.hr{
+    border: 1px solid rgb(0, 154, 243)
+}
